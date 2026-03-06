@@ -1,5 +1,6 @@
 main {
     display: flex;
+    flex-grow: 2;
     justify-content: right;
     text-align: left;
 }
@@ -92,7 +93,8 @@ main {
 }
 .title {
     display: flex;
-    margin-top: 45%;
+    margin-top: 15%;
+    margin-left: 3%;
     flex-direction: column;
     column-span: all;
     align-items: center;
@@ -100,8 +102,27 @@ main {
 }
 .info {
     display: flex;
+    background-color: rgb(253, 255, 255);
+    margin-top: 10%;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
 }
-
+.testimonial {
+    display: flex;
+    background-color: rgb(231, 236, 241);
+}
+.sa {
+    display: flex;
+    margin-top: 10%;
+    font-style: italic;
+}
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    background-color: rgb(212, 177, 246);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12pt;
+}
