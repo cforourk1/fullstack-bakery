@@ -1,0 +1,13 @@
+.topnav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+    gap: 1ch;
+}
+.sidenav {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
