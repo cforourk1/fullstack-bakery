@@ -3,15 +3,6 @@ main {
     justify-content: right;
     text-align: left;
 }
-.bak {
-    display: flex;
-    justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
-}
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
 .topnav {
     display: flex;
     flex-direction: row;
@@ -41,7 +32,7 @@ body {
     margin: auto;
 }
 .a {
-    background-color: rgb(234, 232, 245);
+    background-color: rgb(228, 227, 233);
     border: none;
     padding: 5px;
     margin: auto;
@@ -49,12 +40,59 @@ body {
 .sidenav {
     display: flex;
     flex-direction: column;
+    gap: 2ch;
     align-items: left;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif; size: 16px;
 }
+.br {
+    display:flex ;
+    column-gap: 5px;
+    flex-flow: row wrap;
+    background-color: rgb(248, 198, 234);
+    margin-bottom: 5%;
+    padding: 2px;
+    border: none;
+}
+.ca  {
+    display:flex ;
+    column-gap: 5px;
+    flex-flow: row wrap;
+    background-color: rgb(248, 198, 234);
+    margin-bottom: 5%;
+    padding: 2px;
+    border: none;
+}
+.co  {
+    display:flex ;
+    column-gap: 5px;
+    flex-flow: row wrap;
+    background-color: rgb(248, 198, 234);
+    margin-bottom: 5%;
+    padding: 2px;
+    border: none;
+}
+.mu  {
+    display:flex ;
+    column-gap: 5px;
+    flex-flow: row wrap;
+    background-color: rgb(248, 198, 234);
+    margin-bottom: 5%;
+    padding: 2px;
+    border: none;
+}
+.pi  {
+    display:flex ;
+    column-gap: 5px;
+    flex-flow: row wrap;
+    background-color: rgb(248, 198, 234);
+    margin: auto;
+    padding: 2px;
+    border: none;
+}
 .title {
     display: flex;
+    margin-top: 45%;
     flex-direction: column;
     column-span: all;
     align-items: center;
